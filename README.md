@@ -12,9 +12,13 @@
 ## guião 4
 
 ### Exercicio 1
+### Exercicio em que mudamos de semaphore
 ### public void putBoundedBuffer(int item) throws InterruptedException
 ### public int getBoundedBuffer() throws InterruptedException
 
 ### Exercicio em que mudamos de semaphore para wait/notifyAll
 ### public void putBoundedBuffer(int item) throws InterruptedException
 ### public int getBoundedBuffer() throws InterruptedException
+
+###Exercicio 3
+public synchronized void await() throws InterruptedException
