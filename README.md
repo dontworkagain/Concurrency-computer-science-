@@ -23,7 +23,8 @@ public int getBoundedBuffer() throws InterruptedException
 ###Exercicio 3
 public synchronized void await() throws InterruptedException
 
-##Guiao 5
+## Guiao 5
+###Exercicio 1
 public void supply(String s, int q)
 public void consume(String[] items) throws InterruptedException
 
