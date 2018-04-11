@@ -14,10 +14,12 @@ float totalBalance(int accounts[]) throws InvalidAccount;
 ### Exercicio 1
 ### Exercicio em que usamos semaphore
 public void putBoundedBuffer(int item) throws InterruptedException
+
 public int getBoundedBuffer() throws InterruptedException
 
 ### Exercicio em que mudamos de semaphore para wait/notifyAll
 public void putBoundedBuffer(int item) throws InterruptedException
+
 public int getBoundedBuffer() throws InterruptedException
 
 ### Exercicio 3
@@ -26,5 +28,6 @@ public synchronized void await() throws InterruptedException
 ## Guiao 5
 ### Exercicio 1
 public void supply(String s, int q)
+
 public void consume(String[] items) throws InterruptedException
 
