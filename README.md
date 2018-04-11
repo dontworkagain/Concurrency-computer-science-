@@ -3,10 +3,15 @@
 ## guião 3 
 
 int createAccount(float initialBalance);
+
 float closeAccount(int id) throws InvalidAccount;
+
 void deposit(int id, int val) throws InvalidAccount;
+
 void withdraw(int id, int val) throws InvalidAccount;
+
 void transfer(int from, int to, float amount) throws InvalidAccount, NotEnoughFunds;
+
 float totalBalance(int accounts[]) throws InvalidAccount;
 
 ## guião 4
