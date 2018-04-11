@@ -20,11 +20,11 @@ public int getBoundedBuffer() throws InterruptedException
 public void putBoundedBuffer(int item) throws InterruptedException
 public int getBoundedBuffer() throws InterruptedException
 
-###Exercicio 3
+### Exercicio 3
 public synchronized void await() throws InterruptedException
 
 ## Guiao 5
-###Exercicio 1
+### Exercicio 1
 public void supply(String s, int q)
 public void consume(String[] items) throws InterruptedException
 
